@@ -12,6 +12,7 @@
   margin-bottom: 10rem;
   align-self: flex-start;
   flex-direction: row;
+  border-radius: 10px;
 }
 
 .p-item:last-child {
@@ -26,19 +27,23 @@
 }
 
 .p-description {
-  opacity: 0;
-  -webkit-transition: all 500ms ease-in-out;
-  -moz-transition: all 500ms ease-in-out;
-  -ms-transition: all 500ms ease-in-out;
-  -o-transition: all 500ms ease-in-out;
-  transition: all 500ms ease-in-out;
   margin: auto;
   height: 150px;
   width: 250px;
   text-align: center;
 }
 
-.p-item:hover .p-description {
+.p-description-details {
+  opacity: 0;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+  text-align: center;
+}
+
+.p-item:hover .p-description-details {
   opacity: 1;
 }
 
