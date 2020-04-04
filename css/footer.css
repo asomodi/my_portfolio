@@ -1,0 +1,35 @@
+.copyright {
+  width: 100%;
+  text-align: center;
+  background-color: #001322;
+  padding: 2rem 0;
+  position: relative;
+}
+
+.up {
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  background-color: #eee;
+  top: -2.5rem;
+  right: 5rem;
+  border-radius: 100%;
+  display: flex;
+  animation: pulse 2s infinite;
+  cursor: pointer;
+}
+
+.up i {
+  color: #16162d;
+  font-size: 2rem;
+  margin: auto;
+}
+
+.experience {
+  padding-bottom: 200px;
+}
+
+.copyright p {
+  font-size: 2rem;
+  padding: 20px;
+}

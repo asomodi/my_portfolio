@@ -1,0 +1,69 @@
+.p-item {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  background-position: center;
+  background-size: auto 100%;
+  background-color: grey;
+  height: 340px;
+  width: 280px;
+  margin: 40px;
+  margin-bottom: 10rem;
+  align-self: flex-start;
+  flex-direction: row;
+}
+
+.p-item:last-child {
+  margin-bottom: 0;
+}
+
+.p-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: center;
+}
+
+.p-description {
+  opacity: 0;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+  margin: auto;
+  height: 150px;
+  width: 250px;
+  text-align: center;
+}
+
+.p-item:hover .p-description {
+  opacity: 1;
+}
+
+.p-description h1 {
+  font-size: 3rem;
+  font-weight: 300;
+  margin: 1rem 0;
+}
+
+.p-description h6 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  opacity: 0.3;
+}
+
+.p-description .cta {
+  display: inline-block;
+  margin-top: 2.5rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #fe2a3c;
+  transition: color 650ms;
+}
+
+.p-description .cta:hover {
+  color: #fe2a3c;
+}
