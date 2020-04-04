@@ -48,9 +48,12 @@
 }
 
 .p-description h1 {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 300;
-  margin: 1rem 0;
+  margin: 0 0 1rem 0;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: 'Do Hyeon', sans-serif;
 }
 
 .p-description h6 {

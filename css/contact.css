@@ -3,6 +3,18 @@
   transition: color 650ms;
 }
 
+.fa-file-download:hover {
+  color: #e9a513;
+}
+
+.fa-envelope:hover {
+  color: #929292;
+}
+
+.fa-linkedin:hover {
+  color: #0077b5;
+}
+
 .fa-facebook-square:hover {
   color: #4267b2;
 }
