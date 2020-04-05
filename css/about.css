@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  max-width: 900px;
 }
 
 .about-heading {
@@ -37,8 +38,8 @@
 }
 
 .profile-container {
-  background: white;
+  background: rgb(38, 172, 207, 0.6);
   border-radius: 20px;
-  color: darkblue;
+  color: white;
   padding: 20px;
 }

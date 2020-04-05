@@ -36,7 +36,7 @@ li {
 
 .nav-link:hover,
 .nav-link:focus {
-  background: #fe2a3c;
+  background: #26accf;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
