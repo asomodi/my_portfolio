@@ -22,7 +22,7 @@ body {
   background-size: cover;
 }
 
-body::after {
+/* body::after {
   content: '';
   position: absolute;
   top: 0;
@@ -35,6 +35,7 @@ body::after {
 body * {
   z-index: 1;
 }
+*/
 
 section {
   padding: 6rem 0;
