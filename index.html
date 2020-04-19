@@ -1,273 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" href="images/as-icon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Akos Somodi Portfolio</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Akos Somodi</title>
-  <link rel="shortcut icon" href="images/as-icon.png" />
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
-  <link href="https://fonts.googleapis.com/css?family=Cute+Font|Montserrat|Montserrat+Subrayada|Poppins&display=swap"
-    rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/global.css" />
-  <link rel="stylesheet" href="css/reusable.css" />
-  <link rel="stylesheet" href="css/header.css" />
-  <link rel="stylesheet" href="css/about.css" />
-  <link rel="stylesheet" href="css/portfolio.css" />
-  <link rel="stylesheet" href="css/contact.css" />
-  <link rel="stylesheet" href="css/footer.css" />
-  <link rel="stylesheet" href="css/media queries.css" />
-
-</head>
-
-<body>
-  <header>
-    <div class="menu-toggler">
-      <div class="bar half start"></div>
-      <div class="bar"></div>
-      <div class="bar half end"></div>
-    </div>
-    <nav class="top-nav">
-      <ul class="nav-list">
-        <li>
-          <a href="#about" class="nav-link">About</a>
-        </li>
-        <li>
-          <a href="#portfolio" class="nav-link">Portfolio</a>
-        </li>
-        <li>
-          <a href="#experience" class="nav-link">Contact</a>
-        </li>
-      </ul>
-    </nav>
-    <div class="landing-text">
-      <h1>Akos Somodi</h1>
-      <h6>Junior Web Developer</h6>
-    </div>
-  </header>
-
-  <section class="about" id="about">
-    <div class="container profile-container">
-      <div class="profile-img" data-aos="fade-right" data-aos-delay="300">
-        <img src="images/profile.png" alt="" />
-      </div>
-      <div class="about-details" data-aos="fade-left" data-aos-delay="600">
-        <div class="about-heading">
-          <h1>About</h1>
-          <h6>Myself</h6>
+  <body>
+    <div class="wrapper container row">
+      <div class="personal-side container column">
+        <div class="avatar">
+          <img src="images/avatar2.jpg" alt="" />
         </div>
-        <p>
-          Hello! My name is Ákos Somodi, and I'm a Vienna-based Junior Web Developer. 
-          
-          I have a diverse set of skills, ranging from Java, to HTML + CSS + Javascript, 
-          all the way to JQuery and Angular. 
-        </p>
+        <div class="avatar-text">
+          <h1>Akos Somodi</h1>
+          <h2>Junior Web Developer</h2>
+        </div>
+
+        <div class="social-part">
+          <a
+            href="https://www.linkedin.com/in/%C3%A1kos-somodi-a256b6198/"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i>
+          </a>
+          <a href="images/cv-akos-somodi.pdf" target="_blank">
+            <i class="fas fa-file-download"></i>
+          </a>
+          <a href="https://github.com/asomodi" target="_blank">
+            <i class="fab fa-github"></i
+          ></a>
+          <a href="mailto:akossomodi@yahoo.com" target="_blank">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <a href="skype:live:.cid.ab38ad1a8c162205?chat" target="_blank">
+            <i class="fab fa-skype"></i>
+          </a>
+        </div>
       </div>
-    </div>
-  </section>
 
-  <section class="portfolio" id="portfolio">
-    <div class="container">
-      <div class="section-heading">
-        <h1>Portfolio</h1>
-        <h6>Check out some of my recent work</h6>
-      </div>
-
-    <div class="p-container">
-
-          <div class="p-item" id="p-item-container-1" style="background-image: url('images/snake.jpg');">
-              <div class="p-description">
-                <div class="p-description-title">
-                  <h1>The Snake Game</h1>
-                </div>
-                <div class="p-description-details">
-                  <p>
-                    The famous snake game with vanilla Javascript, HTML and CSS.
-                  </p>
-                  <a href="projects/snake/index.html" target="_blank" class="cta">Go to Project</a>
-                </div>
-            </div>
+      <div class="content-side container column">
+        <div class="description-part container column">
+          <div class="personal-title">
+            <h1>
+              About Myself
+            </h1>
           </div>
-
-          <div class="p-item" id="p-item-container-2" style="background-image: url('images/todo.jpg');">
-            <div class="p-description">
-              <div class="p-description-title">
-                <h1>To Do List</h1>
+          <div class="personal-text">
+            <p>
+              Hello! My name is Akos Somodi, and I'm a Vienna-based Junior Web
+              Developer. I have a diverse set of skills, ranging from Java, to
+              HTML, CSS, Javascript, JQuery, with Vue and Angular.
+            </p>
+          </div>
+        </div>
+        <div class="projects-part container column">
+          <div class="projects-title">
+            <h1>My Projects</h1>
+          </div>
+          <div class="project-items container wrap">
+            <div
+              class="project-item"
+              style="background-image: url('images/backg6.jpg');"
+            >
+              <div class="project-overlay"></div>
+              <div class="project-button">
+                <a
+                  href="projects/breakout_game_2.0/index.html"
+                  target="_blank"
+                  class="project-link"
+                  >Show</a
+                >
               </div>
-              <div class="p-description-details">
-                <p>
+              <div class="project-description">
+                <h2 class="project-title">Breakout Game 2.0</h2>
+                <p class="project-text">
+                  Advanced brick and ball collision.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="project-item"
+              style="background-image: url('images/backg6.jpg');"
+            >
+              <div class="project-overlay"></div>
+              <div class="project-button">
+                <a
+                  href="projects/todo_list_in_vue/index.html"
+                  target="_blank"
+                  class="project-link"
+                  >Show</a
+                >
+              </div>
+              <div class="project-description">
+                <h2 class="project-title">To Do List</h2>
+                <p class="project-text">
                   A simple todo list in Vue Cli with router.
                 </p>
-                <a href="projects/todo_list_in_vue/index.html" target="_blank" class="cta">Go to Project</a>
               </div>
-          </div>
-        </div>
+            </div>
 
-          <div class="p-item" id="p-item-container-3" style="background-image: url('images/breakout.jpg');">
-            <div class="p-description">
-              <div class="p-description-title">
-                <h1>The Breakout Game</h1>
+            <div
+              class="project-item"
+              style="background-image: url('images/backg6.jpg');"
+            >
+              <div class="project-overlay"></div>
+              <div class="project-button">
+                <a
+                  href="projects/lyrics_search_app/index.html"
+                  target="_blank"
+                  class="project-link"
+                  >Show</a
+                >
               </div>
-              <div class="p-description-details">
-                <p>
+              <div class="project-description">
+                <h2 class="project-title">Lyrics Search App</h2>
+                <p class="project-text">
+                  Fetch, Pagination, Lyrics.ovh API.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="project-item"
+              style="background-image: url('images/backg6.jpg');"
+            >
+              <div class="project-overlay"></div>
+              <div class="project-button">
+                <a
+                  href="projects/memory_cards/index.html"
+                  target="_blank"
+                  class="project-link"
+                  >Show</a
+                >
+              </div>
+              <div class="project-description">
+                <h2 class="project-title">Memory Cards</h2>
+                <p class="project-text">
+                  Learn with: CSS effects, Local Storage, DOM.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="project-item"
+              style="background-image: url('images/backg6.jpg');"
+            >
+              <div class="project-overlay"></div>
+              <div class="project-button">
+                <a
+                  href="projects/hangman_game/index.html"
+                  target="_blank"
+                  class="project-link"
+                  >Show</a
+                >
+              </div>
+              <div class="project-description">
+                <h2 class="project-title">The Hangman Game</h2>
+                <p class="project-text">
+                  Find out the word to save your buddy. DOM, SVG, Events.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="project-item"
+              style="background-image: url('images/backg6.jpg');"
+            >
+              <div class="project-overlay"></div>
+              <div class="project-button">
+                <a
+                  href="projects/snake/index.html"
+                  target="_blank"
+                  class="project-link"
+                  >Show</a
+                >
+              </div>
+              <div class="project-description">
+                <h2 class="project-title">The Snake Game</h2>
+                <p class="project-text">
+                  The famous snake game with vanilla Javascript, HTML and CSS.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="project-item"
+              style="background-image: url('images/backg6.jpg');"
+            >
+              <div class="project-overlay"></div>
+              <div class="project-button">
+                <a
+                  href="projects/breakout_game/index.html"
+                  target="_blank"
+                  class="project-link"
+                  >Show</a
+                >
+              </div>
+              <div class="project-description">
+                <h2 class="project-title">The Breakout Game</h2>
+                <p class="project-text">
                   Breakout game with JS, HTML canvas, and key events.
                 </p>
-                <a href="projects/breakout_game/index.html" target="_blank" class="cta">Go to Project</a>
               </div>
-          </div>
-        </div>
-
-        <div class="p-item" id="p-item-container-4" style="background-image: url('images/meal.jpg');">
-          <div class="p-description">
-            <div class="p-description-title">
-              <h1>Meal Finder</h1>
             </div>
-            <div class="p-description-details">
-              <p>
-                Find meal recipes with fetching MealDB API.
-              </p>
-              <a href="projects/meal_finder/index.html" target="_blank" class="cta">Go to Project</a>
-            </div>
-        </div>
-      </div>
 
-      <div class="p-item" id="p-item-container-5" style="background-image: url('images/memory_cards.jpg');">
-        <div class="p-description">
-          <div class="p-description-title">
-            <h1>Memory Cards</h1>
-          </div>
-          <div class="p-description-details">
-            <p>
-              Learn with: CSS effects, Local Storage, DOM.
-            </p>
-            <a href="projects/memory_cards/index.html" target="_blank" class="cta">Go to Project</a>
-          </div>
-      </div>
-    </div>
-
-      <div class="p-item" id="p-item-container-6" style="background-image: url('images/hangman.jpg');">
-        <div class="p-description">
-          <div class="p-description-title">
-            <h1>The Hangman Game</h1>
-          </div>
-          <div class="p-description-details">
-            <p>
-              Find out the word to save your buddy. DOM, SVG, Events.
-            </p>
-            <a href="projects/hangman_game/index.html" target="_blank" class="cta">Go to Project</a>
-          </div>
-      </div>
-    </div>
-
-    <div class="p-item" id="p-item-container-7" style="background-image: url('images/lyrics.jpg');">
-      <div class="p-description">
-        <div class="p-description-title">
-          <h1>Lyrics Search App</h1>
-        </div>
-        <div class="p-description-details">
-          <p>
-            Fetch, Pagination, Lyrics.ovh API.
-          </p>
-          <a href="projects/lyrics_search_app/index.html" target="_blank" class="cta">Go to Project</a>
-        </div>
-    </div>
-  </div>
-
-  <div class="p-item" id="p-item-container-8" style="background-image: url('images/breakout.jpg');">
-    <div class="p-description">
-      <div class="p-description-title">
-        <h1>Breakout Game 2.0</h1>
-      </div>
-      <div class="p-description-details">
-        <p>
-         Advanced brick and ball collision.
-        </p>
-        <a href="projects/breakout_game_2.0/index.html" target="_blank" class="cta">Go to Project</a>
-      </div>
-  </div>
-</div>
-
-          <div class="p-item" style="background: #26ACCF;">
-            <div class="p-description">
-              <div class="p-description-title">
-                <h1>Coming soon..</h1>
+            <div
+              class="project-item"
+              style="background-image: url('images/backg6.jpg');"
+            >
+              <div class="project-overlay"></div>
+              <div class="project-button">
+                <a
+                  href="projects/meal_finder/index.html"
+                  target="_blank"
+                  class="project-link"
+                  >Show</a
+                >
               </div>
-              <div class="p-description-details">
-                <p>
-                  I'm working every day, <br> visit soon, to check out my next project!
+              <div class="project-description">
+                <h2 class="project-title">Meal Finder</h2>
+                <p class="project-text">
+                  Find meal recipes with fetching MealDB API.
                 </p>
               </div>
+            </div>
+
+            <div
+              class="project-item"
+              style="background-image: url('images/backg6.jpg');"
+            >
+              <div class="project-overlay"></div>
+              <div class="project-button">
+                <a href="#" class="project-link">Show</a>
+              </div>
+              <div class="project-description">
+                <h2 class="project-title">Coming soon...</h2>
+                <p class="project-text">
+                  I'm working every day, <br />
+                  visit soon, to check out my next project!
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-  
-</section>
-
-  <section class="experience" id="experience">
-    <div class="container">
-      <div class="section-heading">
-        <h1>Contact</h1>
-        <h6>How can you reach me</h6>
-      </div>
-      <div class="contact-background" data-aos="fade-down" data-aos-delay="300">
-        
-            <div class="social-media">
-              <ul class="nav-list">
-                <li>
-                  <a href="images/cv-akos-somodi.pdf" target="_blank" class="icon-link">
-                    <i class="fas fa-file-download"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="mailto:akossomodi@yahoo.com" target="_blank" class="icon-link">
-                    <i class="fas fa-envelope"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.linkedin.com/in/%C3%A1kos-somodi-a256b6198/" target="_blank" class="icon-link">
-                    <i class="fab fa-linkedin"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://github.com/asomodi" target="_blank" class="icon-link">
-                    <i class="fab fa-github"></i>
-                  </a>
-                </li>  
-                <li>
-                  <a href="https://www.facebook.com/akos.somodi.5" target="_blank" class="icon-link">
-                    <i class="fab fa-facebook-square"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="skype:live:.cid.ab38ad1a8c162205?chat" target="_blank" class="icon-link">
-                    <i class="fab fa-skype"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-        </ul>
-
       </div>
     </div>
-  </section>
-
-  <footer class="copyright">
-    <div class="up" id="up">
-      <i class="fas fa-chevron-up"></i>
-    </div>
-    <p>&copy; 2020 Ákos Somodi  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="" class="footer-location">
-        <i class="fas fa-map-marker-alt"></i>
-      </a>
-      Vienna, Austria
-    </p>
-  </footer>
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script src="script.js"></script>
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
