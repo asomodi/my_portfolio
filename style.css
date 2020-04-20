@@ -1,6 +1,6 @@
 body {
   overflow: hidden;
-  font-family: 'Montserrat', sans-serif;
+  font-family: source-sans-pro, sans-serif;
   color: #574845;
   margin: 0;
 }
@@ -159,6 +159,7 @@ p {
   padding: 30px;
   font-size: 19px;
   background: rgba(0, 0, 0, 0.6);
+  text-align: center;
 }
 
 .project-title {
@@ -191,6 +192,7 @@ p {
   .social-part {
     position: inherit;
     margin: auto;
+    margin-left: 20px;
   }
 
   .avatar-text {
@@ -223,6 +225,8 @@ p {
   .avatar,
   .avatar-text,
   .social-part {
+    position: inherit;
+    margin: auto;
     font-size: 10px;
     text-align: center;
   }
@@ -245,6 +249,10 @@ p {
     height: 130px;
     width: 130px;
   }
+
+  .avatar-second-text {
+    color: #f3f3f3;
+  }
 }
 
 @media only screen and (max-width: 450px) {
@@ -264,5 +272,8 @@ p {
   }
   .personal-text p {
     font-size: 16px;
+  }
+  .avatar-second-text {
+    color: #f3f3f3;
   }
 }
