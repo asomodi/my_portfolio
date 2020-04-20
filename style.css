@@ -3,6 +3,11 @@ body {
   font-family: source-sans-pro, sans-serif;
   color: #574845;
   margin: 0;
+  min-width: 310px;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 a {
@@ -60,6 +65,10 @@ p {
 .avatar-text {
   top: 180px;
   text-align: right;
+}
+
+.wrapper {
+  background-color: #fdfdfd;
 }
 
 .social-part {
@@ -178,6 +187,30 @@ p {
   opacity: 1;
 }
 
+.up {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  width: 4.5rem;
+  height: 4.5rem;
+  background-color: #eee;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.fa-chevron-up:hover {
+  color: #9b8151;
+}
+
+.up i {
+  color: #16162d;
+  font-size: 2.1rem;
+  margin: auto;
+  padding: 20px;
+}
+
 @media screen and (max-width: 1124px) {
   .wrapper {
     flex-direction: column;
@@ -193,6 +226,13 @@ p {
     position: inherit;
     margin: auto;
     margin-left: 20px;
+  }
+
+  .personal-title-text {
+    text-align: center;
+  }
+  .projects-title-text {
+    text-align: center;
   }
 
   .avatar-text {
@@ -253,12 +293,16 @@ p {
   .avatar-second-text {
     color: #f3f3f3;
   }
+
+  .personal-title-text {
+    text-align: center;
+  }
+  .projects-title-text {
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 450px) {
-  body {
-    min-width: 310px;
-  }
   .project-item,
   .project-button,
   .project-description {
@@ -275,5 +319,14 @@ p {
   }
   .avatar-second-text {
     color: #f3f3f3;
+  }
+  .up {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .up i {
+    font-size: 1.2rem;
+    padding: 13px 16px 15px 15px;
   }
 }
