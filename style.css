@@ -75,13 +75,22 @@ p {
   bottom: 0;
 }
 
-.social-part i {
+.cv-text {
+  font-family: 'Righteous', cursive;
+}
+
+.social-part i,
+.cv-text {
   color: rgb(255, 255, 255, 0.5);
   font-size: 50px;
   margin: 0 20px 20px 0;
 }
 
 .social-part a i:hover {
+  color: #9b8151;
+}
+
+.social-part a .cv-text:hover {
   color: #9b8151;
 }
 
@@ -271,11 +280,9 @@ p {
     text-align: center;
   }
 
-  .social-part i {
+  .social-part i,
+  .cv-text {
     margin-bottom: 10px;
-  }
-
-  .social-part i {
     font-size: 30px;
   }
 
